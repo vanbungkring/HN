@@ -3,299 +3,308 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		059D92B7BBFBEC53E9A3B6E11C5C3B3A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6858C85690F7AFEA7F6542EE9A69A /* Response.swift */; };
-		0A39AF55285A3A4F7CBABB6D822FA4A3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15C076B531E2E7744C358418A0C0B5 /* Alamofire.swift */; };
-		1D29D2ACADF961F69D32B06FA6A09E28 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06639F7A76DB8A9D0D0E41CDD7A6684 /* Notifications.swift */; };
-		2DAAA6449E28963BD0967BFE50D3252C /* Pods-HackerNewsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 864BB5C9AA70B4F76EBA4495AB80C516 /* Pods-HackerNewsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		355C18EEC82624A06A6CC93965258E33 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59E1AD3CC394A93392FF3DC8CF2961 /* Request.swift */; };
-		3BD1DAFE1F3E6C9E4EB0F2099B6D6FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		3E0749AF6C51BCF0E4A41CF1D6A76FED /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF7F7716086D54E6308EE52C8227B87 /* DispatchQueue+Alamofire.swift */; };
-		60B6C2A003864AAD3A426448152F67BE /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB5272AD01ECD0B09A86818A7754C4 /* Timeline.swift */; };
-		64AD387A4B9ED1F64CB398EC58EC8287 /* Pods-HackerNewsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46580F4158C50A4C00078EA2C8850DC /* Pods-HackerNewsTests-dummy.m */; };
-		681851A9D190E700CCFCDF0820F05D3A /* Pods-HackerNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0CA7717761B3AC1DA896F415EBE2E9 /* Pods-HackerNews-dummy.m */; };
-		6EFD003458AE7F689DEA720A2030C261 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B03859BDC36782899379E222720A297 /* ResponseSerialization.swift */; };
-		700D3D95AF9520CB227846DFD943A2DA /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01BA8472F25D39F718F71557EDC8DD /* ParameterEncoding.swift */; };
-		73AB05789A4982944AF68DBD013E3EB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5460AD0F6241621B45A17AB23A8E5B7 /* NetworkReachabilityManager.swift */; };
-		772911DA6E33D1CBBC30131B7C8BDBB3 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE16989701DCA0B781F86A093D7C5E22 /* Alamofire-dummy.m */; };
-		77E8F0EB9FFBE2E3EB0C77095C644606 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C759635F88377BD7E2DEDE04C23C62 /* TaskDelegate.swift */; };
-		7E3538A6992A38276764936A9733493D /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A0E300C04A6DF88D620788FE38780 /* AFError.swift */; };
-		8D2A6A90A6DDAF75EA52D471258545CC /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4453BE339B79900FDC53E34FE5589CB /* ServerTrustPolicy.swift */; };
-		9331FC4C5D19EB4229A7AD1CD6BC77D4 /* Pods-HackerNewsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD35D43BA8AAD41CEF9A064CC9E8F79 /* Pods-HackerNewsUITests-dummy.m */; };
-		A1EC41966B261DCE460BCDE5124A1DBE /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640F61D5BEE8132009BAEAA65B587A4 /* SessionDelegate.swift */; };
-		AA56769D8733D3F3E7976742D5ABA998 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33115EC2A5164913C68F8BD170389EEE /* Validation.swift */; };
-		AEA829AB1A8AF2AD077A808AED6B178A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE3D7EDCA41F256D471B40BBFD3FCE /* MultipartFormData.swift */; };
-		B6F6E4CC26451E91B59FAE0F6841DC1F /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15A825CFEBAE606149BF0047C9F5B209 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B71ACCC0749741DF5836639E2873A640 /* Pods-HackerNewsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C940BC5748B2EC877F246A55A86B511E /* Pods-HackerNewsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3FA0AA634AAEA99AB3FABC36BB4958C /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E25E371731FAE44F46A9F392CB5D5 /* SessionManager.swift */; };
-		E281482B36F4B5A10DD6E4E6BAE7F84C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E468E9E24EA2FC52420B45F492F36F40 /* Pods-HackerNews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A6408B1906C206E7F58B242F564BDC /* Pods-HackerNews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E69C24A572FB62EEC50B783DE8C60DCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E9C1C8AA27A1C2A45A797753ADE144F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		EB0DD8CEA1A69867A30267439C970440 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD807F155301ECA538A2C1C296E1186D /* Result.swift */; };
+		0A423D9C067606A03C677DCC664EC48A /* Pods-HackerNewsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A5743AEC8CB7466F6D2BEEDBB6D791 /* Pods-HackerNewsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
+		13CDE5C1FB3B65003AE0AB4B3CF58100 /* Pods-HackerNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2CA967815F55167EF2E5D42CA2EF36 /* Pods-HackerNews-dummy.m */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03DECE84DC850B04690604AB7C521277 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B567BEEAF00DABFA056A634AF6B0D5E /* Pods-HackerNewsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E99209C300D6C0FC70745C9C685B2C7D /* Pods-HackerNewsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
+		515D1AF9581426289047967EA1872820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */; };
+		834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9E5223CCB8A8EB5D3A9807C3139FED67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */; };
+		A60CD58F4224F08C0786A1A73D8C6820 /* Pods-HackerNewsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FACC4AE8A69A4BECF4B552AD00404AB /* Pods-HackerNewsTests-dummy.m */; };
+		A6B623D5EFE99110D9CFCC6DEE047C8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F50F37DFB6DC0B7B9D8C373E5A3EAE /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */; };
+		E00C3C2B71FFB0A4AFA5D955C1F47223 /* Pods-HackerNewsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C48F2D087394CA1E875B5E29C2673F8D /* Pods-HackerNewsUITests-dummy.m */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
+		FC3DEEF2E0D152ECC3509D661AD38BC3 /* Pods-HackerNews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60EE81E3252CB0B276272E93D411A057 /* Pods-HackerNews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18B9C7BC7BF4ABFFCCF8D1FBB1676AFD /* PBXContainerItemProxy */ = {
+		1BF80F26617FF101E17B8BBBAE1F61B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA2B620FEC1B0E8361B3E32435D17037;
-			remoteInfo = "Pods-HackerNews";
-		};
-		869109C1AB120BEB948C129E2AA5393F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3383968E74B5371B20BB519B170DC7FD;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
-		B52AE972A71BBE173B0C83D1EB40695A /* PBXContainerItemProxy */ = {
+		57B56E1B6DD76FDF1D7F981D87968E32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA2B620FEC1B0E8361B3E32435D17037;
+			remoteGlobalIDString = 76B7CA25D9FC6DBE8172A0F2CCED0911;
+			remoteInfo = "Pods-HackerNews";
+		};
+		9591E2CD984E791BBBBD464F30732041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B7CA25D9FC6DBE8172A0F2CCED0911;
 			remoteInfo = "Pods-HackerNews";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		081D825C31084E7F4763B4F0BE8BB694 /* Pods-HackerNewsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNewsTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		08A1B6AD13374F4DE0F4C1A608C74C32 /* Pods-HackerNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		08D31274F9D31F7AB4DBE53566C2A0B1 /* Pods-HackerNewsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNewsUITests-Info.plist"; sourceTree = "<group>"; };
-		0A3337E40C85FF5EAA6173C46DF739B7 /* Pods-HackerNews-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNews-Info.plist"; sourceTree = "<group>"; };
-		0D01BA8472F25D39F718F71557EDC8DD /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		15A825CFEBAE606149BF0047C9F5B209 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		17A94CCD2575BCEC5EF240B8C1893751 /* Pods-HackerNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews.release.xcconfig"; sourceTree = "<group>"; };
-		1C15C076B531E2E7744C358418A0C0B5 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		26670136B1762F19D60E841EC8698340 /* Pods-HackerNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		32DB5272AD01ECD0B09A86818A7754C4 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		33115EC2A5164913C68F8BD170389EEE /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		3D7E25E371731FAE44F46A9F392CB5D5 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		4BCD01AFE64D2B8BBE06BBD9E94FC55A /* Pods-HackerNewsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNewsTests-Info.plist"; sourceTree = "<group>"; };
-		4C3B47F1E955F3B9F4BC3ACAE90007AC /* Pods-HackerNewsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNewsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4EA580BB16A97AA2DCEBE9A377E4DA2C /* Pods_HackerNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackerNews.framework; path = "Pods-HackerNews.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F652B81B77453471CD91E7CE335DD64 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		5F0CA7717761B3AC1DA896F415EBE2E9 /* Pods-HackerNews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNews-dummy.m"; sourceTree = "<group>"; };
-		7545CF55BE345EA7C318A64E7BFB1C70 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		75C759635F88377BD7E2DEDE04C23C62 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		7869368E8D2B799D5ABCAFF536D0527E /* Pods-HackerNewsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HackerNewsTests.modulemap"; sourceTree = "<group>"; };
-		7B03859BDC36782899379E222720A297 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		864BB5C9AA70B4F76EBA4495AB80C516 /* Pods-HackerNewsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNewsUITests-umbrella.h"; sourceTree = "<group>"; };
-		88E2126E893D4FB8A8D3D10440253944 /* Pods-HackerNews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNews-acknowledgements.plist"; sourceTree = "<group>"; };
-		8BD415DBC379C68B613566FD4C5169AF /* Pods-HackerNews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HackerNews.modulemap"; sourceTree = "<group>"; };
-		8D5A0E300C04A6DF88D620788FE38780 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		90A6408B1906C206E7F58B242F564BDC /* Pods-HackerNews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNews-umbrella.h"; sourceTree = "<group>"; };
-		96AC98D0CCFA778066DE3211DF4A612B /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		9726877E9E92CF24D7519B7667C13FA7 /* Pods-HackerNewsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNewsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D59E1AD3CC394A93392FF3DC8CF2961 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0F6B1DBF2B95867B02CA909027E6CA1 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		A424074E303F7B57411F480AAFE57AE3 /* Pods-HackerNewsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNewsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A50C202CAA181A4F546FD9DDC5008D14 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A61C2A361D7D58B99B501E05E76DD95A /* Pods-HackerNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFF7F7716086D54E6308EE52C8227B87 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		B06639F7A76DB8A9D0D0E41CDD7A6684 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		BE16989701DCA0B781F86A093D7C5E22 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		BFCE3D7EDCA41F256D471B40BBFD3FCE /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		C22FFD6AFBEC688B0F9B760411D4C0EC /* Pods_HackerNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackerNewsUITests.framework; path = "Pods-HackerNewsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4453BE339B79900FDC53E34FE5589CB /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		C940BC5748B2EC877F246A55A86B511E /* Pods-HackerNewsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNewsTests-umbrella.h"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CBFE3926DD928139BB2FCE42FBB47FDF /* Pods-HackerNews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNews-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CCC6858C85690F7AFEA7F6542EE9A69A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		CD7227B335C15109FF7058A7568C91A2 /* Pods-HackerNews-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNews-frameworks.sh"; sourceTree = "<group>"; };
-		D46580F4158C50A4C00078EA2C8850DC /* Pods-HackerNewsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNewsTests-dummy.m"; sourceTree = "<group>"; };
-		D6194EBDB4C7DD8C5F20B292D71AA6CC /* Pods_HackerNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackerNewsTests.framework; path = "Pods-HackerNewsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD807F155301ECA538A2C1C296E1186D /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		DFD35D43BA8AAD41CEF9A064CC9E8F79 /* Pods-HackerNewsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNewsUITests-dummy.m"; sourceTree = "<group>"; };
-		E56E42B3E9AFA1D1A27EA00AA849CD50 /* Pods-HackerNewsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HackerNewsUITests.modulemap"; sourceTree = "<group>"; };
-		E8DB04597F6FC02951AC1EA5C830F7C2 /* Pods-HackerNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsTests.release.xcconfig"; sourceTree = "<group>"; };
-		F5460AD0F6241621B45A17AB23A8E5B7 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		F640F61D5BEE8132009BAEAA65B587A4 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		FB56FE456D912DFC36BEA8E16F058442 /* Pods-HackerNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews.debug.xcconfig"; sourceTree = "<group>"; };
+		03DECE84DC850B04690604AB7C521277 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		0682067F556EF8D38EE06FCFEF4C778C /* Pods-HackerNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FACC4AE8A69A4BECF4B552AD00404AB /* Pods-HackerNewsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNewsTests-dummy.m"; sourceTree = "<group>"; };
+		0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		117EFB31D9AD9673BAF51B48596F19E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D88F1A9BA4E547EF55FFC018F0DD3E /* Pods-HackerNews-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNews-frameworks.sh"; sourceTree = "<group>"; };
+		13DA9D0574E7A9C77FA801826ACD88D1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		1E230A0448B394DE26E688DAC8E6201E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		201770BE82468220BB5CC6C1050ED788 /* Pods-HackerNewsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNewsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		210971763CB2FC0DC4E378271A37BE32 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		2AE53C49C2432DDFA6C498D157EC800F /* Pods_HackerNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C483A4485D9ABA3D6097BCB4F05DD11 /* Pods-HackerNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31CFB92AA8BCF5C38518C231DC4E585C /* Pods_HackerNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		3580AEB00E5CB50C39658E163E0CF108 /* Pods-HackerNewsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNewsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35CC54DE2316548973708BD9183B5605 /* Pods-HackerNews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNews-acknowledgements.plist"; sourceTree = "<group>"; };
+		365BC4AFF322855F654798EAAEBDE187 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC69E7A8024698D806C1F53234C69A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		3ED2CC48CA1991C0F1F3404ED320A284 /* Pods-HackerNewsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		59801A64175B51FEA32FE29842C43C61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FCD181FAA8DC1D6EC07910CED28A0B7 /* Pods_HackerNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EE81E3252CB0B276272E93D411A057 /* Pods-HackerNews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNews-umbrella.h"; sourceTree = "<group>"; };
+		61D920D6E48023BCBF18CD83450D05F5 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		62CB908351FCA4C840F87393DBE9FC68 /* Pods-HackerNews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HackerNews.modulemap"; sourceTree = "<group>"; };
+		6486FBB32305CCB12E5BB1D6ACED7DD2 /* Pods-HackerNewsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsTests-frameworks.sh"; sourceTree = "<group>"; };
+		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		6ACBF9AEC706D82EECD1DBF1BB99B404 /* Pods-HackerNewsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNewsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D2CA967815F55167EF2E5D42CA2EF36 /* Pods-HackerNews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNews-dummy.m"; sourceTree = "<group>"; };
+		7E5DC30C8C1187A63D6020114216222A /* Pods-HackerNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews.release.xcconfig"; sourceTree = "<group>"; };
+		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		88697C06C46F8C538ADB8B1966235A2F /* Pods-HackerNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CD4713EB8FB899CC704CF3EA387C2C2 /* Pods-HackerNewsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsTests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9991CAAFBFACD0330CC6562D186E1844 /* Pods-HackerNewsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNewsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		A2014BC6C12410A4798C9C8D27CBB998 /* Pods-HackerNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9AD133CB23D9B664C8B60A281198807 /* Pods-HackerNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews.debug.xcconfig"; sourceTree = "<group>"; };
+		B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		B4A5743AEC8CB7466F6D2BEEDBB6D791 /* Pods-HackerNewsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNewsUITests-umbrella.h"; sourceTree = "<group>"; };
+		B7EF05569834B5E07C9931510FE93458 /* Pods-HackerNews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNews-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C48F2D087394CA1E875B5E29C2673F8D /* Pods-HackerNewsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNewsUITests-dummy.m"; sourceTree = "<group>"; };
+		C61F32272F59266E377C737B5225973F /* Pods-HackerNewsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HackerNewsUITests.modulemap"; sourceTree = "<group>"; };
+		D017E1BDAA4BA3EE8E5A7377C8D2CCC9 /* Pods-HackerNewsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HackerNewsTests.modulemap"; sourceTree = "<group>"; };
+		D1F50F37DFB6DC0B7B9D8C373E5A3EAE /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		DA6DC196056C95B10EBA572DD41AB1EF /* Pods-HackerNews-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNews-resources.sh"; sourceTree = "<group>"; };
+		DE17A18395DC7D74AC64F17E482B41B2 /* Pods-HackerNewsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsUITests-resources.sh"; sourceTree = "<group>"; };
+		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		E99209C300D6C0FC70745C9C685B2C7D /* Pods-HackerNewsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNewsTests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5C28A19D416820CD9D7F85C564ED2CFF /* Frameworks */ = {
+		2413753A8206355E99106C4617BD044A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C1C8AA27A1C2A45A797753ADE144F9 /* Foundation.framework in Frameworks */,
+				A6B623D5EFE99110D9CFCC6DEE047C8A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E786B68434299A0748A50054791F6D1 /* Frameworks */ = {
+		4241A02E21FAC1DBC14AB8B97EEE4477 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E281482B36F4B5A10DD6E4E6BAE7F84C /* Foundation.framework in Frameworks */,
+				9E5223CCB8A8EB5D3A9807C3139FED67 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		845AA9627EA1D6E91418478F43627D21 /* Frameworks */ = {
+		6C1DDB7AD2032754911EF01FE460BA8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E69C24A572FB62EEC50B783DE8C60DCC /* Foundation.framework in Frameworks */,
+				515D1AF9581426289047967EA1872820 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1626ADC3A7EC435D2722B3173355D36 /* Frameworks */ = {
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BD1DAFE1F3E6C9E4EB0F2099B6D6FA2 /* Foundation.framework in Frameworks */,
+				834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F5A684028824A3B294F41FCBE0A8B15 /* Pods-HackerNewsUITests */ = {
+		13FD86992DE966D95E2D146A97F53778 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E56E42B3E9AFA1D1A27EA00AA849CD50 /* Pods-HackerNewsUITests.modulemap */,
-				A424074E303F7B57411F480AAFE57AE3 /* Pods-HackerNewsUITests-acknowledgements.markdown */,
-				9726877E9E92CF24D7519B7667C13FA7 /* Pods-HackerNewsUITests-acknowledgements.plist */,
-				DFD35D43BA8AAD41CEF9A064CC9E8F79 /* Pods-HackerNewsUITests-dummy.m */,
-				08D31274F9D31F7AB4DBE53566C2A0B1 /* Pods-HackerNewsUITests-Info.plist */,
-				864BB5C9AA70B4F76EBA4495AB80C516 /* Pods-HackerNewsUITests-umbrella.h */,
-				26670136B1762F19D60E841EC8698340 /* Pods-HackerNewsUITests.debug.xcconfig */,
-				08A1B6AD13374F4DE0F4C1A608C74C32 /* Pods-HackerNewsUITests.release.xcconfig */,
+				13DA9D0574E7A9C77FA801826ACD88D1 /* Alamofire.framework */,
+				2AE53C49C2432DDFA6C498D157EC800F /* Pods_HackerNews.framework */,
+				5FCD181FAA8DC1D6EC07910CED28A0B7 /* Pods_HackerNewsTests.framework */,
+				31CFB92AA8BCF5C38518C231DC4E585C /* Pods_HackerNewsUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		200D10EB20F0397D47F022B50CF0433F /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */,
+				DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */,
+				0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */,
+				155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */,
+				E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */,
+				66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */,
+				6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */,
+				1E230A0448B394DE26E688DAC8E6201E /* Request.swift */,
+				04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */,
+				E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */,
+				3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */,
+				32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */,
+				195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */,
+				46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */,
+				A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */,
+				87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */,
+				B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */,
+				2E5925946A4DE3B8F7E4137BACAD9618 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		234C6EA56931C131F69E671441F0AA32 /* Pods-HackerNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59801A64175B51FEA32FE29842C43C61 /* Info.plist */,
+				C61F32272F59266E377C737B5225973F /* Pods-HackerNewsUITests.modulemap */,
+				6ACBF9AEC706D82EECD1DBF1BB99B404 /* Pods-HackerNewsUITests-acknowledgements.markdown */,
+				3580AEB00E5CB50C39658E163E0CF108 /* Pods-HackerNewsUITests-acknowledgements.plist */,
+				C48F2D087394CA1E875B5E29C2673F8D /* Pods-HackerNewsUITests-dummy.m */,
+				3ED2CC48CA1991C0F1F3404ED320A284 /* Pods-HackerNewsUITests-frameworks.sh */,
+				DE17A18395DC7D74AC64F17E482B41B2 /* Pods-HackerNewsUITests-resources.sh */,
+				B4A5743AEC8CB7466F6D2BEEDBB6D791 /* Pods-HackerNewsUITests-umbrella.h */,
+				0682067F556EF8D38EE06FCFEF4C778C /* Pods-HackerNewsUITests.debug.xcconfig */,
+				2C483A4485D9ABA3D6097BCB4F05DD11 /* Pods-HackerNewsUITests.release.xcconfig */,
 			);
 			name = "Pods-HackerNewsUITests";
 			path = "Target Support Files/Pods-HackerNewsUITests";
 			sourceTree = "<group>";
 		};
-		42AF0DCC8353C197B78976FC0A9E6D79 /* Products */ = {
+		2E5925946A4DE3B8F7E4137BACAD9618 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A50C202CAA181A4F546FD9DDC5008D14 /* Alamofire.framework */,
-				4EA580BB16A97AA2DCEBE9A377E4DA2C /* Pods_HackerNews.framework */,
-				D6194EBDB4C7DD8C5F20B292D71AA6CC /* Pods_HackerNewsTests.framework */,
-				C22FFD6AFBEC688B0F9B760411D4C0EC /* Pods_HackerNewsUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5DDD7202AA88B2B471734D85C4006A8B /* Pods-HackerNewsTests */ = {
-			isa = PBXGroup;
-			children = (
-				7869368E8D2B799D5ABCAFF536D0527E /* Pods-HackerNewsTests.modulemap */,
-				4C3B47F1E955F3B9F4BC3ACAE90007AC /* Pods-HackerNewsTests-acknowledgements.markdown */,
-				081D825C31084E7F4763B4F0BE8BB694 /* Pods-HackerNewsTests-acknowledgements.plist */,
-				D46580F4158C50A4C00078EA2C8850DC /* Pods-HackerNewsTests-dummy.m */,
-				4BCD01AFE64D2B8BBE06BBD9E94FC55A /* Pods-HackerNewsTests-Info.plist */,
-				C940BC5748B2EC877F246A55A86B511E /* Pods-HackerNewsTests-umbrella.h */,
-				A61C2A361D7D58B99B501E05E76DD95A /* Pods-HackerNewsTests.debug.xcconfig */,
-				E8DB04597F6FC02951AC1EA5C830F7C2 /* Pods-HackerNewsTests.release.xcconfig */,
-			);
-			name = "Pods-HackerNewsTests";
-			path = "Target Support Files/Pods-HackerNewsTests";
-			sourceTree = "<group>";
-		};
-		90FDDC7F5D24472360CA259A8D40AE98 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ABBD6121E62B33A53CF07892A75F2030 /* Alamofire */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		9BA86B3EDA3C295EC1B9E7963803A4C5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4F652B81B77453471CD91E7CE335DD64 /* Alamofire.modulemap */,
-				A0F6B1DBF2B95867B02CA909027E6CA1 /* Alamofire.xcconfig */,
-				BE16989701DCA0B781F86A093D7C5E22 /* Alamofire-dummy.m */,
-				96AC98D0CCFA778066DE3211DF4A612B /* Alamofire-Info.plist */,
-				7545CF55BE345EA7C318A64E7BFB1C70 /* Alamofire-prefix.pch */,
-				15A825CFEBAE606149BF0047C9F5B209 /* Alamofire-umbrella.h */,
+				210971763CB2FC0DC4E378271A37BE32 /* Alamofire.modulemap */,
+				33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */,
+				D1F50F37DFB6DC0B7B9D8C373E5A3EAE /* Alamofire-dummy.m */,
+				61D920D6E48023BCBF18CD83450D05F5 /* Alamofire-prefix.pch */,
+				03DECE84DC850B04690604AB7C521277 /* Alamofire-umbrella.h */,
+				117EFB31D9AD9673BAF51B48596F19E2 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		AA26E9B2A6676EE99792BD2AC0C87E0D /* Targets Support Files */ = {
+		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B7E5D601C85B4F26EEF940139D6B4448 /* Pods-HackerNews */,
-				5DDD7202AA88B2B471734D85C4006A8B /* Pods-HackerNewsTests */,
-				2F5A684028824A3B294F41FCBE0A8B15 /* Pods-HackerNewsUITests */,
+				200D10EB20F0397D47F022B50CF0433F /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
+				13FD86992DE966D95E2D146A97F53778 /* Products */,
+				AB5826D8F804E689CD8A8F206AE132D5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9FF360EFFE1657BC1D3F5EB7787B8DD7 /* Pods-HackerNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AC69E7A8024698D806C1F53234C69A2 /* Info.plist */,
+				D017E1BDAA4BA3EE8E5A7377C8D2CCC9 /* Pods-HackerNewsTests.modulemap */,
+				9991CAAFBFACD0330CC6562D186E1844 /* Pods-HackerNewsTests-acknowledgements.markdown */,
+				201770BE82468220BB5CC6C1050ED788 /* Pods-HackerNewsTests-acknowledgements.plist */,
+				0FACC4AE8A69A4BECF4B552AD00404AB /* Pods-HackerNewsTests-dummy.m */,
+				6486FBB32305CCB12E5BB1D6ACED7DD2 /* Pods-HackerNewsTests-frameworks.sh */,
+				8CD4713EB8FB899CC704CF3EA387C2C2 /* Pods-HackerNewsTests-resources.sh */,
+				E99209C300D6C0FC70745C9C685B2C7D /* Pods-HackerNewsTests-umbrella.h */,
+				A2014BC6C12410A4798C9C8D27CBB998 /* Pods-HackerNewsTests.debug.xcconfig */,
+				88697C06C46F8C538ADB8B1966235A2F /* Pods-HackerNewsTests.release.xcconfig */,
+			);
+			name = "Pods-HackerNewsTests";
+			path = "Target Support Files/Pods-HackerNewsTests";
+			sourceTree = "<group>";
+		};
+		AB5826D8F804E689CD8A8F206AE132D5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB6DB432049CF387C54B5CA5DC7A450 /* Pods-HackerNews */,
+				9FF360EFFE1657BC1D3F5EB7787B8DD7 /* Pods-HackerNewsTests */,
+				234C6EA56931C131F69E671441F0AA32 /* Pods-HackerNewsUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ABBD6121E62B33A53CF07892A75F2030 /* Alamofire */ = {
+		ABB6DB432049CF387C54B5CA5DC7A450 /* Pods-HackerNews */ = {
 			isa = PBXGroup;
 			children = (
-				8D5A0E300C04A6DF88D620788FE38780 /* AFError.swift */,
-				1C15C076B531E2E7744C358418A0C0B5 /* Alamofire.swift */,
-				AFF7F7716086D54E6308EE52C8227B87 /* DispatchQueue+Alamofire.swift */,
-				BFCE3D7EDCA41F256D471B40BBFD3FCE /* MultipartFormData.swift */,
-				F5460AD0F6241621B45A17AB23A8E5B7 /* NetworkReachabilityManager.swift */,
-				B06639F7A76DB8A9D0D0E41CDD7A6684 /* Notifications.swift */,
-				0D01BA8472F25D39F718F71557EDC8DD /* ParameterEncoding.swift */,
-				9D59E1AD3CC394A93392FF3DC8CF2961 /* Request.swift */,
-				CCC6858C85690F7AFEA7F6542EE9A69A /* Response.swift */,
-				7B03859BDC36782899379E222720A297 /* ResponseSerialization.swift */,
-				DD807F155301ECA538A2C1C296E1186D /* Result.swift */,
-				C4453BE339B79900FDC53E34FE5589CB /* ServerTrustPolicy.swift */,
-				F640F61D5BEE8132009BAEAA65B587A4 /* SessionDelegate.swift */,
-				3D7E25E371731FAE44F46A9F392CB5D5 /* SessionManager.swift */,
-				75C759635F88377BD7E2DEDE04C23C62 /* TaskDelegate.swift */,
-				32DB5272AD01ECD0B09A86818A7754C4 /* Timeline.swift */,
-				33115EC2A5164913C68F8BD170389EEE /* Validation.swift */,
-				9BA86B3EDA3C295EC1B9E7963803A4C5 /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		B7E5D601C85B4F26EEF940139D6B4448 /* Pods-HackerNews */ = {
-			isa = PBXGroup;
-			children = (
-				8BD415DBC379C68B613566FD4C5169AF /* Pods-HackerNews.modulemap */,
-				CBFE3926DD928139BB2FCE42FBB47FDF /* Pods-HackerNews-acknowledgements.markdown */,
-				88E2126E893D4FB8A8D3D10440253944 /* Pods-HackerNews-acknowledgements.plist */,
-				5F0CA7717761B3AC1DA896F415EBE2E9 /* Pods-HackerNews-dummy.m */,
-				CD7227B335C15109FF7058A7568C91A2 /* Pods-HackerNews-frameworks.sh */,
-				0A3337E40C85FF5EAA6173C46DF739B7 /* Pods-HackerNews-Info.plist */,
-				90A6408B1906C206E7F58B242F564BDC /* Pods-HackerNews-umbrella.h */,
-				FB56FE456D912DFC36BEA8E16F058442 /* Pods-HackerNews.debug.xcconfig */,
-				17A94CCD2575BCEC5EF240B8C1893751 /* Pods-HackerNews.release.xcconfig */,
+				365BC4AFF322855F654798EAAEBDE187 /* Info.plist */,
+				62CB908351FCA4C840F87393DBE9FC68 /* Pods-HackerNews.modulemap */,
+				B7EF05569834B5E07C9931510FE93458 /* Pods-HackerNews-acknowledgements.markdown */,
+				35CC54DE2316548973708BD9183B5605 /* Pods-HackerNews-acknowledgements.plist */,
+				6D2CA967815F55167EF2E5D42CA2EF36 /* Pods-HackerNews-dummy.m */,
+				12D88F1A9BA4E547EF55FFC018F0DD3E /* Pods-HackerNews-frameworks.sh */,
+				DA6DC196056C95B10EBA572DD41AB1EF /* Pods-HackerNews-resources.sh */,
+				60EE81E3252CB0B276272E93D411A057 /* Pods-HackerNews-umbrella.h */,
+				A9AD133CB23D9B664C8B60A281198807 /* Pods-HackerNews.debug.xcconfig */,
+				7E5DC30C8C1187A63D6020114216222A /* Pods-HackerNews.release.xcconfig */,
 			);
 			name = "Pods-HackerNews";
 			path = "Target Support Files/Pods-HackerNews";
 			sourceTree = "<group>";
 		};
-		CF1408CF629C7361332E53B88F7BD30C = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				90FDDC7F5D24472360CA259A8D40AE98 /* Pods */,
-				42AF0DCC8353C197B78976FC0A9E6D79 /* Products */,
-				AA26E9B2A6676EE99792BD2AC0C87E0D /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -303,49 +312,84 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		23D70D9651451F43E7E8CC1A87B4B7E9 /* Headers */ = {
+		90CA635F8B556C18F0EB14F987108EFE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6F6E4CC26451E91B59FAE0F6841DC1F /* Alamofire-umbrella.h in Headers */,
+				2B567BEEAF00DABFA056A634AF6B0D5E /* Pods-HackerNewsTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76DAB31C9E27656C9762ECB3EC383FA2 /* Headers */ = {
+		A0FC1979E804E911915256E7C02579F8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E468E9E24EA2FC52420B45F492F36F40 /* Pods-HackerNews-umbrella.h in Headers */,
+				FC3DEEF2E0D152ECC3509D661AD38BC3 /* Pods-HackerNews-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5A60381D21AE8808809B26C6D366261 /* Headers */ = {
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DAAA6449E28963BD0967BFE50D3252C /* Pods-HackerNewsUITests-umbrella.h in Headers */,
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA4FF15F2C5CAC302DD243F87FCA9252 /* Headers */ = {
+		E270DD353B90DE901B7C0CA2F7F0A159 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B71ACCC0749741DF5836639E2873A640 /* Pods-HackerNewsTests-umbrella.h in Headers */,
+				0A423D9C067606A03C677DCC664EC48A /* Pods-HackerNewsUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3383968E74B5371B20BB519B170DC7FD /* Alamofire */ = {
+		0EA85D3500D3B78A1C9C62FBBC327D8A /* Pods-HackerNewsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E87124444A44B7DB55208E7FEC21D331 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildConfigurationList = 31973C5E8105A2E46FD1C41810D283E1 /* Build configuration list for PBXNativeTarget "Pods-HackerNewsTests" */;
 			buildPhases = (
-				23D70D9651451F43E7E8CC1A87B4B7E9 /* Headers */,
-				A1C8B029F600160149A2404C342F6E50 /* Sources */,
-				F1626ADC3A7EC435D2722B3173355D36 /* Frameworks */,
-				28FF73341543B6F0A7DF3C20CFFEA0AA /* Resources */,
+				5F0137BEA88F532A4FCE7043CE58BE11 /* Sources */,
+				2413753A8206355E99106C4617BD044A /* Frameworks */,
+				90CA635F8B556C18F0EB14F987108EFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75747E93A7585EFF7CD0EC4056410BA3 /* PBXTargetDependency */,
+			);
+			name = "Pods-HackerNewsTests";
+			productName = "Pods-HackerNewsTests";
+			productReference = 5FCD181FAA8DC1D6EC07910CED28A0B7 /* Pods_HackerNewsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76B7CA25D9FC6DBE8172A0F2CCED0911 /* Pods-HackerNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C323658FDC890E763D8D0CF5F46463 /* Build configuration list for PBXNativeTarget "Pods-HackerNews" */;
+			buildPhases = (
+				A81238DAEC504F5A525DBE6435875C56 /* Sources */,
+				6C1DDB7AD2032754911EF01FE460BA8C /* Frameworks */,
+				A0FC1979E804E911915256E7C02579F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				539FFA5249BF1EE540689C3CD397DFA3 /* PBXTargetDependency */,
+			);
+			name = "Pods-HackerNews";
+			productName = "Pods-HackerNews";
+			productReference = 2AE53C49C2432DDFA6C498D157EC800F /* Pods_HackerNews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -353,351 +397,131 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = A50C202CAA181A4F546FD9DDC5008D14 /* Alamofire.framework */;
+			productReference = 13DA9D0574E7A9C77FA801826ACD88D1 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3D31C9DB1284725CF08AF0BB419A032D /* Pods-HackerNewsTests */ = {
+		9F37C376FC25E3C9A67DF5E132B0672F /* Pods-HackerNewsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8977DC2D7A8A311A8CDFFDB5359ADB90 /* Build configuration list for PBXNativeTarget "Pods-HackerNewsTests" */;
+			buildConfigurationList = 2642324259909B102F68118B0B356E08 /* Build configuration list for PBXNativeTarget "Pods-HackerNewsUITests" */;
 			buildPhases = (
-				AA4FF15F2C5CAC302DD243F87FCA9252 /* Headers */,
-				2D79E45F5FB4A120DDF229B824F9797A /* Sources */,
-				6E786B68434299A0748A50054791F6D1 /* Frameworks */,
-				876BF007A545FD66411214ECA72CB72D /* Resources */,
+				CA055EB222832E5150A90FF359A9BF05 /* Sources */,
+				4241A02E21FAC1DBC14AB8B97EEE4477 /* Frameworks */,
+				E270DD353B90DE901B7C0CA2F7F0A159 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9AA3FE32BCBB947FB9FE26D167B2F810 /* PBXTargetDependency */,
-			);
-			name = "Pods-HackerNewsTests";
-			productName = "Pods-HackerNewsTests";
-			productReference = D6194EBDB4C7DD8C5F20B292D71AA6CC /* Pods_HackerNewsTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AA2B620FEC1B0E8361B3E32435D17037 /* Pods-HackerNews */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6C854407623B2FDE01AC91F44EA6C526 /* Build configuration list for PBXNativeTarget "Pods-HackerNews" */;
-			buildPhases = (
-				76DAB31C9E27656C9762ECB3EC383FA2 /* Headers */,
-				FEB50DBDFEFB394973188D8877EEB5B2 /* Sources */,
-				845AA9627EA1D6E91418478F43627D21 /* Frameworks */,
-				1D484A4F1B21FA6CF3E660758BA07732 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9A19F56685FD7D0F276232AF736C43D0 /* PBXTargetDependency */,
-			);
-			name = "Pods-HackerNews";
-			productName = "Pods-HackerNews";
-			productReference = 4EA580BB16A97AA2DCEBE9A377E4DA2C /* Pods_HackerNews.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CFF164F9C5840E8DF9760BB2979DCEAF /* Pods-HackerNewsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9C9ADD49BD7A7F8FC15E9AF7FD6EB85F /* Build configuration list for PBXNativeTarget "Pods-HackerNewsUITests" */;
-			buildPhases = (
-				A5A60381D21AE8808809B26C6D366261 /* Headers */,
-				6292373543E50CF275D5518118703DF5 /* Sources */,
-				5C28A19D416820CD9D7F85C564ED2CFF /* Frameworks */,
-				F259809F2BD9BEE421B2EBEE879E8EA7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				768A2D99B4A50AF5C66A07FEB7679E3B /* PBXTargetDependency */,
+				E8E1E3D0E289D79B24C92B1A6CAE4136 /* PBXTargetDependency */,
 			);
 			name = "Pods-HackerNewsUITests";
 			productName = "Pods-HackerNewsUITests";
-			productReference = C22FFD6AFBEC688B0F9B760411D4C0EC /* Pods_HackerNewsUITests.framework */;
+			productReference = 31CFB92AA8BCF5C38518C231DC4E585C /* Pods_HackerNewsUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 42AF0DCC8353C197B78976FC0A9E6D79 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 13FD86992DE966D95E2D146A97F53778 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3383968E74B5371B20BB519B170DC7FD /* Alamofire */,
-				AA2B620FEC1B0E8361B3E32435D17037 /* Pods-HackerNews */,
-				3D31C9DB1284725CF08AF0BB419A032D /* Pods-HackerNewsTests */,
-				CFF164F9C5840E8DF9760BB2979DCEAF /* Pods-HackerNewsUITests */,
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				76B7CA25D9FC6DBE8172A0F2CCED0911 /* Pods-HackerNews */,
+				0EA85D3500D3B78A1C9C62FBBC327D8A /* Pods-HackerNewsTests */,
+				9F37C376FC25E3C9A67DF5E132B0672F /* Pods-HackerNewsUITests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		1D484A4F1B21FA6CF3E660758BA07732 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28FF73341543B6F0A7DF3C20CFFEA0AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		876BF007A545FD66411214ECA72CB72D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F259809F2BD9BEE421B2EBEE879E8EA7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		2D79E45F5FB4A120DDF229B824F9797A /* Sources */ = {
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64AD387A4B9ED1F64CB398EC58EC8287 /* Pods-HackerNewsTests-dummy.m in Sources */,
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6292373543E50CF275D5518118703DF5 /* Sources */ = {
+		5F0137BEA88F532A4FCE7043CE58BE11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9331FC4C5D19EB4229A7AD1CD6BC77D4 /* Pods-HackerNewsUITests-dummy.m in Sources */,
+				A60CD58F4224F08C0786A1A73D8C6820 /* Pods-HackerNewsTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1C8B029F600160149A2404C342F6E50 /* Sources */ = {
+		A81238DAEC504F5A525DBE6435875C56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3538A6992A38276764936A9733493D /* AFError.swift in Sources */,
-				772911DA6E33D1CBBC30131B7C8BDBB3 /* Alamofire-dummy.m in Sources */,
-				0A39AF55285A3A4F7CBABB6D822FA4A3 /* Alamofire.swift in Sources */,
-				3E0749AF6C51BCF0E4A41CF1D6A76FED /* DispatchQueue+Alamofire.swift in Sources */,
-				AEA829AB1A8AF2AD077A808AED6B178A /* MultipartFormData.swift in Sources */,
-				73AB05789A4982944AF68DBD013E3EB7 /* NetworkReachabilityManager.swift in Sources */,
-				1D29D2ACADF961F69D32B06FA6A09E28 /* Notifications.swift in Sources */,
-				700D3D95AF9520CB227846DFD943A2DA /* ParameterEncoding.swift in Sources */,
-				355C18EEC82624A06A6CC93965258E33 /* Request.swift in Sources */,
-				059D92B7BBFBEC53E9A3B6E11C5C3B3A /* Response.swift in Sources */,
-				6EFD003458AE7F689DEA720A2030C261 /* ResponseSerialization.swift in Sources */,
-				EB0DD8CEA1A69867A30267439C970440 /* Result.swift in Sources */,
-				8D2A6A90A6DDAF75EA52D471258545CC /* ServerTrustPolicy.swift in Sources */,
-				A1EC41966B261DCE460BCDE5124A1DBE /* SessionDelegate.swift in Sources */,
-				D3FA0AA634AAEA99AB3FABC36BB4958C /* SessionManager.swift in Sources */,
-				77E8F0EB9FFBE2E3EB0C77095C644606 /* TaskDelegate.swift in Sources */,
-				60B6C2A003864AAD3A426448152F67BE /* Timeline.swift in Sources */,
-				AA56769D8733D3F3E7976742D5ABA998 /* Validation.swift in Sources */,
+				13CDE5C1FB3B65003AE0AB4B3CF58100 /* Pods-HackerNews-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB50DBDFEFB394973188D8877EEB5B2 /* Sources */ = {
+		CA055EB222832E5150A90FF359A9BF05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				681851A9D190E700CCFCDF0820F05D3A /* Pods-HackerNews-dummy.m in Sources */,
+				E00C3C2B71FFB0A4AFA5D955C1F47223 /* Pods-HackerNewsUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		768A2D99B4A50AF5C66A07FEB7679E3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-HackerNews";
-			target = AA2B620FEC1B0E8361B3E32435D17037 /* Pods-HackerNews */;
-			targetProxy = 18B9C7BC7BF4ABFFCCF8D1FBB1676AFD /* PBXContainerItemProxy */;
-		};
-		9A19F56685FD7D0F276232AF736C43D0 /* PBXTargetDependency */ = {
+		539FFA5249BF1EE540689C3CD397DFA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
-			target = 3383968E74B5371B20BB519B170DC7FD /* Alamofire */;
-			targetProxy = 869109C1AB120BEB948C129E2AA5393F /* PBXContainerItemProxy */;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 1BF80F26617FF101E17B8BBBAE1F61B1 /* PBXContainerItemProxy */;
 		};
-		9AA3FE32BCBB947FB9FE26D167B2F810 /* PBXTargetDependency */ = {
+		75747E93A7585EFF7CD0EC4056410BA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HackerNews";
-			target = AA2B620FEC1B0E8361B3E32435D17037 /* Pods-HackerNews */;
-			targetProxy = B52AE972A71BBE173B0C83D1EB40695A /* PBXContainerItemProxy */;
+			target = 76B7CA25D9FC6DBE8172A0F2CCED0911 /* Pods-HackerNews */;
+			targetProxy = 57B56E1B6DD76FDF1D7F981D87968E32 /* PBXContainerItemProxy */;
+		};
+		E8E1E3D0E289D79B24C92B1A6CAE4136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HackerNews";
+			target = 76B7CA25D9FC6DBE8172A0F2CCED0911 /* Pods-HackerNews */;
+			targetProxy = 9591E2CD984E791BBBBD464F30732041 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2AE3FEAE23155E0E948183AB2B9B703A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26670136B1762F19D60E841EC8698340 /* Pods-HackerNewsUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsUITests/Pods-HackerNewsUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HackerNewsUITests/Pods-HackerNewsUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2D2FEB790D787B6FA6AB590B4D984021 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A61C2A361D7D58B99B501E05E76DD95A /* Pods-HackerNewsTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsTests/Pods-HackerNewsTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HackerNewsTests/Pods-HackerNewsTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4D3A79C9A64155B794819016396F2D37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB56FE456D912DFC36BEA8E16F058442 /* Pods-HackerNews.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HackerNews/Pods-HackerNews-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HackerNews/Pods-HackerNews.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9CF36E6AA46D597086D835E1724A4D87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0F6B1DBF2B95867B02CA909027E6CA1 /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -729,6 +553,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -747,19 +573,16 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B914025A518B53556696F19D8D477057 /* Debug */ = {
+		34E77E2E24311F3D2D8A6311074F3DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0F6B1DBF2B95867B02CA909027E6CA1 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -771,28 +594,97 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D93B534A37D28FE98496DE2E163FF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88697C06C46F8C538ADB8B1966235A2F /* Pods-HackerNewsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackerNewsTests/Pods-HackerNewsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63CD02947F9772B365FDE6A9BEA93E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9AD133CB23D9B664C8B60A281198807 /* Pods-HackerNews.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackerNews/Pods-HackerNews.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -824,6 +716,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -844,21 +738,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C5887C2ECF8C8FE5425AACE05500C94F /* Release */ = {
+		BDC5AE64A56CCC3C4813C8053F418D98 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08A1B6AD13374F4DE0F4C1A608C74C32 /* Pods-HackerNewsUITests.release.xcconfig */;
+			baseConfigurationReference = A2014BC6C12410A4798C9C8D27CBB998 /* Pods-HackerNewsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -871,14 +762,112 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsUITests/Pods-HackerNewsUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackerNewsTests/Pods-HackerNewsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C18155DB6746473143748B65E6B3CD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C996AD08447FED19EDCF61CA5A8C921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5DC30C8C1187A63D6020114216222A /* Pods-HackerNews.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackerNews/Pods-HackerNews.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0784F503C79D87EFE7723E75FE4F62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0682067F556EF8D38EE06FCFEF4C778C /* Pods-HackerNewsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HackerNewsUITests/Pods-HackerNewsUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -889,15 +878,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		CB7077F4C9F4E8BCD0DC46F59FDA50C4 /* Release */ = {
+		F2E1A01852B732874F9DDCB691582D0B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17A94CCD2575BCEC5EF240B8C1893751 /* Pods-HackerNews.release.xcconfig */;
+			baseConfigurationReference = 2C483A4485D9ABA3D6097BCB4F05DD11 /* Pods-HackerNewsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -910,55 +898,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HackerNews/Pods-HackerNews-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HackerNews/Pods-HackerNews.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CD8BFE1A991204BA7F7474E0B91821C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8DB04597F6FC02951AC1EA5C830F7C2 /* Pods-HackerNewsTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsTests/Pods-HackerNewsTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HackerNewsTests/Pods-HackerNewsTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-HackerNewsUITests/Pods-HackerNewsUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -976,52 +921,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		2642324259909B102F68118B0B356E08 /* Build configuration list for PBXNativeTarget "Pods-HackerNewsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1391485F05B41BD35738A433056B7FA /* Debug */,
-				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+				E0784F503C79D87EFE7723E75FE4F62E /* Debug */,
+				F2E1A01852B732874F9DDCB691582D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C854407623B2FDE01AC91F44EA6C526 /* Build configuration list for PBXNativeTarget "Pods-HackerNews" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D3A79C9A64155B794819016396F2D37 /* Debug */,
-				CB7077F4C9F4E8BCD0DC46F59FDA50C4 /* Release */,
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8977DC2D7A8A311A8CDFFDB5359ADB90 /* Build configuration list for PBXNativeTarget "Pods-HackerNewsTests" */ = {
+		31973C5E8105A2E46FD1C41810D283E1 /* Build configuration list for PBXNativeTarget "Pods-HackerNewsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D2FEB790D787B6FA6AB590B4D984021 /* Debug */,
-				CD8BFE1A991204BA7F7474E0B91821C1 /* Release */,
+				BDC5AE64A56CCC3C4813C8053F418D98 /* Debug */,
+				4D93B534A37D28FE98496DE2E163FF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C9ADD49BD7A7F8FC15E9AF7FD6EB85F /* Build configuration list for PBXNativeTarget "Pods-HackerNewsUITests" */ = {
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AE3FEAE23155E0E948183AB2B9B703A /* Debug */,
-				C5887C2ECF8C8FE5425AACE05500C94F /* Release */,
+				C18155DB6746473143748B65E6B3CD05 /* Debug */,
+				34E77E2E24311F3D2D8A6311074F3DC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E87124444A44B7DB55208E7FEC21D331 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+		72C323658FDC890E763D8D0CF5F46463 /* Build configuration list for PBXNativeTarget "Pods-HackerNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B914025A518B53556696F19D8D477057 /* Debug */,
-				9CF36E6AA46D597086D835E1724A4D87 /* Release */,
+				63CD02947F9772B365FDE6A9BEA93E8F /* Debug */,
+				C996AD08447FED19EDCF61CA5A8C921F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }
