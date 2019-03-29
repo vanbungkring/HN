@@ -5,40 +5,46 @@
 //  Created by Vanbungkring on 3/25/19.
 //  Copyright © 2019 netra. All rights reserved.
 //
-
+import Alamofire
 import Foundation
 enum APIEndPointItem {
-    case topHeadline
+    case topHeadlineHackerNews
 }
 
 extension APIEndPointItem:APIEndPointType{
+    var url: URL{
+        return URL(string: self.baseURL + self.version + self.path+"&country=id&apikey="+APIConstant().HNAPIKey)!
+    }
+    
     var baseURL: String {
-        <#code#>
+        return APIConstant().HNBaseURL
     }
     
     var path: String {
-        <#code#>
+        switch self {
+        case .topHeadlineHackerNews:
+            return "/top-headlines"
+        default:
+             return ""
+        }
     }
     
     var httpMethod: HTTPMethod {
-        <#code#>
+        return .get
     }
-    
+ 
     var headers: HTTPHeaders? {
-        <#code#>
-    }
-    
-    var url: URL {
-        <#code#>
+        return nil
     }
     
     var encoding: ParameterEncoding {
-        <#code#>
+        return JSONEncoding.default
     }
     
     var version: String {
-        <#code#>
+        return "v2"
     }
+    
     
     
 }

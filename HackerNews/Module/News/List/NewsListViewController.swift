@@ -23,7 +23,7 @@ class NewsListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.presenter.fetchHeadlineNews();
         // Do any additional setup after loading the view.
     }
 

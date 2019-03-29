@@ -12,8 +12,13 @@ class NewsListPresenter {
     var view : NewsListViewController?
     private let router : NewsListRouter
     private let interactor :NewsListInteractor
+    
     init(interactor:NewsListInteractor, router:NewsListRouter) {
         self.router = router
         self.interactor = interactor
+    }
+    func fetchHeadlineNews()  {
+        return interactor.requestFeedHackerNews()
+        
     }
 }

@@ -8,17 +8,8 @@
 
 import UIKit
 
-struct API {
-    struct ConstantKey {
-        let HNAPIKey = "10e9590b3a564643b2d285ef288f384b"
-        let HNBaseURL = "https://newsapi.org/v2"
-    }
-    struct Url {
-        let topHeadlineAPI = "/top-headlines"
-    }
-}
-class APIConstant: NSObject {
-    func awakeFrom() {
-    
-    }
+struct APIConstant {
+    let HNAPIKey = "10e9590b3a564643b2d285ef288f384b"
+    let HNBaseURL = "https://newsapi.org"
+    let topHeadlineAPI = "/top-headlines"
 }

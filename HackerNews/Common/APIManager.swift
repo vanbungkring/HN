@@ -23,7 +23,28 @@ class APIManager {
  
     private init(sessionManager: SessionManager) {
         self.sessionManager = sessionManager
-        
     }
-   
+    func call<T>(type: APIEndPointType, params: Parameters? = nil, handler: @escaping (T?, _ error: Error?)->()) where T: Codable {
+        
+        self.sessionManager.request(type.url,
+                                    method: type.httpMethod,
+                                    parameters: params,
+                                    encoding: type.encoding,
+                                    headers: type.headers).validate().responseJSON { data in
+                                        switch data.result {
+                                        case .success(_):
+                                            let decoder = JSONDecoder()
+                                            if let jsonData = data.data {
+                                                let result = try! decoder.decode(T.self, from: jsonData)
+                                                handler(result, nil)
+                                            }
+                                            break
+                                        case .failure(_):
+                                            handler(nil, Error.self as? Error)
+                                            break
+                                        }
+        }
+    }
+    
 }
+
